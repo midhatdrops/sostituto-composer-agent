@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Assistente local de composição musical (Claude Code + vault em markdown/MIDI)",
+  "license": "PolyForm-Noncommercial-1.0.0",
   "engines": {
     "node": ">=20"
   },

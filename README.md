@@ -143,3 +143,14 @@ Your personal files (`config.json`, `prompt-assistente.md`, `claude-settings/set
 - Outside of the MIDI import, it can't read a `.mid` file you send yet. Audio analysis isn't available either.
 - There's no built-in MIDI player or score viewer yet. Open the files in your DAW or notation app.
 - Codex and Kimi support is new. Their answers arrive in blocks rather than word by word, and "Think harder" doesn't change anything on Kimi yet.
+
+## License
+
+Sostituto is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md).
+
+- ✅ **Allowed:** personal use, study, hobby projects, research and other noncommercial purposes, as well as use by charities, schools and other noncommercial organizations. You may modify the code and share it under the same terms.
+- ❌ **Not allowed:** any commercial use, such as selling the software, offering it as a paid service, or using it in a for-profit product or business.
+
+For commercial use, contact the author for a separate license.
+
+This is a *source-available* license, not an OSI-approved open-source license. Third-party dependencies keep their own licenses.
