@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash",
+      "PowerShell",
+      "Edit(**/Export/**)",
+      "Write(**/Export/**)",
+      "Edit(**/*.mscz)",
+      "Write(**/*.mscz)"
+    ]
+  }
+}

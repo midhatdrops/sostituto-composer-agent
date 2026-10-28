@@ -1,0 +1,53 @@
+# Sostituto: só o código, os modelos e as regras do app vão para o git.
+# Nada do usuário (músicas, conversas, logins, configurações da máquina) é versionado.
+
+# --- dependências e build ---
+node_modules/
+web/dist/
+*.tsbuildinfo
+
+# --- variáveis sensíveis e credenciais ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+auth.json
+
+# --- dados do app: conversas, sessões e logins dos providers ---
+# (data/transcripts, data/sessions.json, data/codex-home, data/kimi-home…)
+data/
+
+# --- configurações desta máquina (os modelos *.example ficam no git) ---
+config.json
+claude-settings/settings.json
+claude-settings/settings.local.json
+.claude/settings.local.json
+# prompt do assistente editado pelo usuário (o modelo é prompt-assistente.padrao.md)
+prompt-assistente.md
+
+# --- músicas e vault, caso alguém coloque o vault dentro do projeto ---
+Músicas/
+vault/
+musica-vault/
+*.mscz
+*.mid
+*.midi
+*.musicxml
+*.wav
+*.aif
+*.aiff
+*.mp3
+*.flac
+*.als
+
+# --- temporários, logs e arquivos do sistema ---
+*.tmp
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
